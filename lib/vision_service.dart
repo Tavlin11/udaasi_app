@@ -4,7 +4,7 @@ import 'dart:typed_data';
 
 class VisionService {
   // Replace this with your actual key from Google AI Studio
-  final String apiKey = "AIzaSyAbBKFV4RM9ajhMwAn3m8Ys4Sdi3puTi7Q"; 
+  final String apiKey = ""; 
 
   Future<String> getWisdom(Uint8List imageBytes) async {
     final model = GenerativeModel(model: 'gemini-pro-vision-001', apiKey: apiKey);
